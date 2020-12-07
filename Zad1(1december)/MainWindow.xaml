@@ -1,0 +1,13 @@
+﻿<Window x:Class="Zad1_1december_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad1_1december_"
+        mc:Ignorable="d"
+        Title="Задание 1" Height="415.605" Width="673.885">
+    <Grid>
+        <TextBox x:Name="textBox" Margin="118,116,95,228" FontSize="24" />
+        <Button Margin="211,232,198,88" Content="Ввести два значения" Click="button_click" FontSize="24"/>
+    </Grid>
+</Window>
